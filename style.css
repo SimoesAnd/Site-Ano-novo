@@ -91,7 +91,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 30px;
   border-radius: 10px;
-  text-align: left; /* Alinha todo o texto da overlay à esquerda */
+  text-align: center; /* Alinha todo o texto da overlay à esquerda */
   color: white;
   z-index: 1;
 }
