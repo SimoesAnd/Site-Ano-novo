@@ -63,15 +63,15 @@ body {
 @media (max-width: 480px) {
   /* Ajustes ainda mais específicos para telas muito pequenas */
   h1 {
-    font-size: 1.5rem; /* Reduz ainda mais o tamanho do título */
+    font-size: 0.9rem; /* Reduz ainda mais o tamanho do título */
   }
 
   p.lead {
-    font-size: 0.9rem; /* Reduz o texto descritivo */
+    font-size: 0.8rem; /* Reduz o texto descritivo */
   }
 
   .btn-lg {
-    font-size: 0.9rem; /* Botão proporcionalmente menor */
+    font-size: 0.8rem; /* Botão proporcionalmente menor */
   }
 }
 /* Estilo do rodapé */
