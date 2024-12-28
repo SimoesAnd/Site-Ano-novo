@@ -36,5 +36,54 @@ body {
     text-align: center;
     z-index: 1; /* Conteúdo acima do fundo */
   }
+  /* Ajustes de responsividade */
+ @media (max-width: 768px) {
+    /* Ajustes no bloco de texto */
+    .overlay {
+      padding: 20px; /* Reduz o padding para telas menores */
+    }
   
+    /* Ajustes no título */
+    h1 {
+      font-size: 1.8rem; /* Diminui o tamanho do título */
+    }
+  
+    /* Ajustes no texto descritivo */
+    p.lead {
+      font-size: 1rem; /* Ajusta o texto descritivo */
+    }
+  
+    /* Ajustes no botão */
+    .btn-lg {
+      padding: 10px 20px; /* Botão menor para telas pequenas */
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Ajustes ainda mais específicos para telas muito pequenas */
+    h1 {
+      font-size: 1.5rem; /* Reduz ainda mais o tamanho do título */
+    }
+  
+    p.lead {
+      font-size: 0.9rem; /* Reduz o texto descritivo */
+    }
+  
+    .btn-lg {
+      font-size: 0.9rem; /* Botão proporcionalmente menor */
+    }
+  }
+  /* Estilo do rodapé */
+    .footer {
+    position: fixed; /* Fixado na parte inferior da tela */
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    z-index: 2; /* Fica acima do vídeo de fundo */
+  }
   
